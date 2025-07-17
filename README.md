@@ -1,73 +1,129 @@
-# Welcome to your Lovable project
+# 🚀 FutureNewsKH – Modern Khmer Unicode News Portal
 
-## Project info
+Welcome to **Future News in Khmer** – the next-generation, comprehensive, and visually stunning Khmer Unicode news portal. Built to deliver an immersive reading experience for Cambodian news in both Khmer and English, FutureNewsKH is designed for the future: dark, sleek, accessible, and lightning-fast on all devices.
 
-**URL**: https://lovable.dev/projects/6a94b2cf-2cdc-4970-bf7a-b286c2748fbe
+---
 
-## How can I edit this code?
+## ✨ Features Overview
 
-There are several ways of editing your application.
+### 🎨 Design System
 
-**Use Lovable**
+- **Futuristic Dark Theme**  
+  Neon blue/cyan accents on a pure dark canvas for a cutting-edge aesthetic.
+- **Khmer Unicode Support**  
+  Renders all content using [Noto Sans Khmer](https://fonts.google.com/specimen/Noto+Sans+Khmer) for flawless Khmer script.
+- **Visual Effects**  
+  - Gradient overlays and backgrounds  
+  - Glass morphism panels  
+  - Glow and hover animations for dynamic feedback
+- **Fully Responsive**  
+  Mobile-first layouts with adaptive scaling for all screen sizes.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6a94b2cf-2cdc-4970-bf7a-b286c2748fbe) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+### 📱 Core Pages
 
-**Use your preferred IDE**
+- **Homepage**
+  - **Hero Carousel:** Auto-rotating, visually rich lead stories
+  - **Trending News:** Top stories of the moment
+  - **Category Sections:** Quick access to all major news genres
+- **Article Detail**
+  - Full article with rich typography, images, and embedded media
+  - Related articles sidebar for deep engagement
+  - Article stats (views, shares, reading time)
+- **Category Listing**
+  - Shows articles filtered by any news category
+  - Color-coded navigation for instant recognition
+- **Search Results**
+  - Advanced, real-time search bar
+  - Filters for date, category, popularity, and language
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 🔧 Key Components
 
-Follow these steps:
+- **Bilingual Header**
+  - Effortless language switching: English ↔ ខ្មែរ
+- **Dynamic Search Bar**
+  - Real-time suggestions and instant results
+- **Article Cards**
+  - Multiple variants: Featured, Standard, Compact
+  - Hover and tap animations
+- **Category Navigation**
+  - Color-coded, icon-enhanced quick links to all categories
+- **Responsive Footer**
+  - Contact information, social links, copyright
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 💫 Special Features
 
-# Step 3: Install the necessary dependencies.
-npm i
+- **Auto-Rotating Hero Carousel**
+- **Real-Time Trending News Section**
+- **Newsletter Signup Modal**
+- **Article Statistics and Social Sharing**
+- **Related Articles Sidebar**
+- **Loading States and Animations**
+  - Beautiful skeletons, fade-ins, and micro-interactions
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+---
+
+## 🖼️ Screenshots
+
+> _Add screenshots or GIFs here to showcase your portal's look and feel!_
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- Modern browser (for best Khmer Unicode rendering)
+
+### Installation
+
+```bash
+git clone https://github.com/sisovin/khmer-fusion-news.git
+cd khmer-fusion-news
+npm install
+npm audit fix --force
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+> _For deployment or advanced configuration (PWA, SEO, analytics), see [docs/DEPLOY.md](docs/DEPLOY.md)_
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🛠️ Tech Stack
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- **Frontend:** React / Next.js (recommended), Tailwind CSS, Framer Motion
+- **Fonts:** [Noto Sans Khmer](https://fonts.google.com/specimen/Noto+Sans+Khmer), system UI fallback
+- **Icons:** Phosphor, Heroicons, or custom SVGs
+- **State:** React Context, Redux, or Zustand
+- **API:** REST/GraphQL (headless CMS friendly)
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 🌐 Localization & Accessibility
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- Full Khmer Unicode text and navigation
+- Instant language toggle
+- Accessible color contrast and keyboard navigation
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/6a94b2cf-2cdc-4970-bf7a-b286c2748fbe) and click on Share -> Publish.
+## 📬 Contact & Contributions
 
-## Can I connect a custom domain to my Lovable project?
+Want to contribute or have questions?  
+Open an issue or pull request, or contact us via [sisovin@outlook.com](mailto:sisovin@outlook.com).
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📝 License
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+[MIT](LICENSE)
+
+---
+
+### 🎉 Experience news like never before – in Khmer and English, anywhere, anytime, beautifully.
